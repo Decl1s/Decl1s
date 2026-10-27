@@ -1,0 +1,8 @@
+.gitattributes
+.gitignore
+COMMERCEGUARD.md
+PROJECTS.md
+PUBLIC_FILES.txt
+README.md
+assets/header-dark.svg
+assets/header-light.svg

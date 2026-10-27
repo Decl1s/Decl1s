@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="248" viewBox="0 0 1280 248" role="img" aria-labelledby="title desc">
+<title id="title">Decl1s — Data Engineering</title><desc id="desc">Я строю проверяемые конвейеры данных. Файлы, контроль качества, витрины.</desc>
+<rect x="1" y="1" width="1278" height="246" rx="18" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<rect x="36" y="38" width="4" height="172" rx="2" fill="#58d6c4"/>
+<g font-family="Arial, sans-serif">
+<text x="62" y="66" fill="#9da7b3" font-size="17" letter-spacing="2">DECL1S / DATA ENGINEERING</text>
+<text x="62" y="117" fill="#f0f6fc" font-size="32" font-weight="700">Я строю проверяемые конвейеры данных</text>
+<text x="62" y="155" fill="#9da7b3" font-size="19">Качество · Повторы · Восстановление</text>
+<text x="62" y="202" fill="#58d6c4" font-size="17">Python · SQL · PostgreSQL · dbt · Polars</text>
+<g stroke="#30363d" stroke-width="2" fill="#161b22">
+<rect x="870" y="96" width="102" height="54" rx="10"/>
+<rect x="996" y="96" width="108" height="54" rx="10"/>
+<rect x="1128" y="96" width="108" height="54" rx="10"/>
+<path d="M972 123h24m108 0h24" fill="none" stroke="#58d6c4"/>
+</g>
+<g fill="#f0f6fc" font-size="16" text-anchor="middle">
+<text x="921" y="129">Файлы</text><text x="1050" y="129">Контроль</text><text x="1182" y="129">Витрины</text>
+</g>
+<text x="1053" y="180" fill="#9da7b3" font-size="13" text-anchor="middle" letter-spacing="1">КОД · ПРОВЕРКИ · ОБЪЯСНЕНИЕ</text>
+</g></svg>
