@@ -36,6 +36,7 @@
 
 ## Дополнительная практика тестирования
 
+- В [graphql-helpdesk-lab](https://github.com/Decl1s/graphql-helpdesk-lab) я тестирую GraphQL с минимумом кода: 22 запроса Bruno, 83 декларативных Assert, демо-роли, частичные ошибки и обнаружение контролируемого дефекта прав. Я прошёл [CI Linux/Windows](https://github.com/Decl1s/graphql-helpdesk-lab/actions/runs/40726720072); [маршрут в интерфейсе](https://github.com/Decl1s/graphql-helpdesk-lab/blob/v0.1.0/GUIDE.md), [конспект и 5 заданий](https://github.com/Decl1s/graphql-helpdesk-lab/blob/v0.1.0/NOTES.md), [релиз и ZIP](https://github.com/Decl1s/graphql-helpdesk-lab/releases/tag/v0.1.0).
 - В [refund-api-quality](https://github.com/Decl1s/refund-api-quality) я проверяю частичные возвраты: pytest, Hypothesis, идемпотентность и реальную SQLite-конкуренцию. Я прошёл 42 случая и обнаружил 3/3 контролируемых мутаций; [конспект и задания](https://github.com/Decl1s/refund-api-quality/blob/v0.1.0/NOTES.md), [успешный CI Linux/Windows](https://github.com/Decl1s/refund-api-quality/actions/runs/40562931554), [релиз и ZIP](https://github.com/Decl1s/refund-api-quality/releases/tag/v0.1.0).
 - В [java-api-testing-lab](https://github.com/Decl1s/java-api-testing-lab) я разбираю REST API, HTTP и автотесты Java/JUnit.
 - В [support-qa-case-study](https://github.com/Decl1s/support-qa-case-study) я документирую синтетическое обращение, проверки и SQL-диагностику.
