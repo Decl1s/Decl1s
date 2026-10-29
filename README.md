@@ -37,6 +37,7 @@
 | Направление | Мой проект | Что я могу разобрать в коде |
 | --- | --- | --- |
 | SQL и моделирование | [dbt-order-marts](https://github.com/Decl1s/dbt-order-marts) | Зерно модели, `ref`, тесты данных и защита от задвоения выручки |
+| Оптимизация SQL | [postgres-index-lab](https://github.com/Decl1s/postgres-index-lab) | EXPLAIN ANALYZE, частичный покрывающий индекс и равенство результата до/после |
 | Транзакции PostgreSQL | [postgres-stock-ledger](https://github.com/Decl1s/postgres-stock-ledger) | COPY → staging → атомарная партия, дубли и конкурентная загрузка |
 | Табличная обработка | [polars-stock-diff](https://github.com/Decl1s/polars-stock-diff) | Full join по составному ключу, NULL/0, полнота снимка и Parquet |
 | Оркестрация и качество | [dagster-delivery-assets](https://github.com/Decl1s/dagster-delivery-assets) | Assets, blocking checks, история запусков и восстановление публикации |
@@ -46,6 +47,8 @@
 [SQL-окна и Parquet в DuckDB](https://github.com/Decl1s/duckdb-meter-rollups)
 и [историю SCD Type 2](https://github.com/Decl1s/sqlite-catalog-history).
 Полный маршрут по направлениям, релизам и конспектам — в [каталоге](https://github.com/Decl1s/Decl1s/blob/main/PROJECTS.md).
+
+Для практики тестирования я подготовил [GraphQL-лабораторию с пояснениями](https://github.com/Decl1s/graphql-helpdesk-lab/blob/codex/explained-edition/START_HERE.md): я начинаю с готовых запросов Bruno, затем разбираю права, ошибки и собственные Assert. В отдельной копии я сохранил шесть уроков и восемь упражнений.
 
 ## Как я работаю
 
