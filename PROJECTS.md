@@ -1,6 +1,6 @@
 # Каталог моего портфолио
 
-Я разделил 18 учебных работ на 14 проектов данных, включая флагман, и 4 дополнительные QA-практики. Я использую синтетические данные. Для выпущенных приложений я даю стабильный тег, конспект, CI и архив; у учебных QA-кейсов показываю их собственные материалы и проверки.
+Я разделил 19 учебных работ на 15 проектов данных, включая флагман, и 4 дополнительные QA-практики. Я использую синтетические данные. Для выпущенных приложений я даю стабильный тег, конспект, CI и архив; у учебных QA-кейсов показываю их собственные материалы и проверки.
 
 ## Как я выбираю точку входа
 
@@ -35,6 +35,7 @@
 
 | Проект | Что я показываю | Проверки и поставка |
 | --- | --- | --- |
+| [Окна событий Go](https://github.com/Decl1s/go-event-windows) | Я различаю event time, watermark, дубли, late и незакрытый EOF preview; объясняю 11 строк прибытия и влияние lag. [Конспект](https://github.com/Decl1s/go-event-windows/blob/v0.1.0/NOTES.md) | [CI Linux/Windows](https://github.com/Decl1s/go-event-windows/actions/runs/40875750187) · [релиз v0.1.0](https://github.com/Decl1s/go-event-windows/releases/tag/v0.1.0) |
 | [Витрина доставок Dagster](https://github.com/Decl1s/dagster-delivery-assets) | Я связываю assets, blocking checks и восстановление публикации. [Конспект](https://github.com/Decl1s/dagster-delivery-assets/blob/v0.1.2/NOTES.md) | [CI](https://github.com/Decl1s/dagster-delivery-assets/actions/runs/40872717515) · [релиз v0.1.2](https://github.com/Decl1s/dagster-delivery-assets/releases/tag/v0.1.2) |
 | [Оркестрация продаж Prefect](https://github.com/Decl1s/prefect-sales-flow) | Я организую задачи, повтор после отказа и проверяемый результат flow. [Конспект](https://github.com/Decl1s/prefect-sales-flow/blob/v0.1.1/NOTES.md) | [CI](https://github.com/Decl1s/prefect-sales-flow/actions/runs/39501733462) · [релиз v0.1.1](https://github.com/Decl1s/prefect-sales-flow/releases/tag/v0.1.1) |
 | [Очередь событий SQLite](https://github.com/Decl1s/sqlite-event-queue) | Я разбираю lease, fencing, retry/DLQ и реальное падение процесса до COMMIT. [Конспект](https://github.com/Decl1s/sqlite-event-queue/blob/v0.1.0/NOTES.md) | [CI](https://github.com/Decl1s/sqlite-event-queue/actions/runs/40091515321) · [релиз v0.1.0](https://github.com/Decl1s/sqlite-event-queue/releases/tag/v0.1.0) |
