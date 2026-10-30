@@ -1,6 +1,6 @@
 # Каталог моего портфолио
 
-Я разделил 19 учебных работ на 15 проектов данных, включая флагман, и 4 дополнительные QA-практики. Я использую синтетические данные. Для выпущенных приложений я даю стабильный тег, конспект, CI и архив; у учебных QA-кейсов показываю их собственные материалы и проверки.
+Я разделил 20 учебных работ на 16 проектов данных, включая флагман, и 4 дополнительные QA-практики. Я использую синтетические данные. Для выпущенных приложений я даю стабильный тег, конспект, CI и архив; у учебных QA-кейсов показываю их собственные материалы и проверки.
 
 ## Как я выбираю точку входа
 
@@ -16,6 +16,7 @@
 
 | Проект | Что я показываю | Проверки и поставка |
 | --- | --- | --- |
+| [CDC-зеркало SQLite](https://github.com/Decl1s/sqlite-cdc-mirror) | Я применяю UPSERT/DELETE с tombstones, replay fingerprints и общим commit данных/checkpoint; проверяю crash/retry. [Конспект](https://github.com/Decl1s/sqlite-cdc-mirror/blob/v0.1.0/NOTES.md) | [CI Linux/Windows](https://github.com/Decl1s/sqlite-cdc-mirror/actions/runs/41066385096) · [релиз v0.1.0](https://github.com/Decl1s/sqlite-cdc-mirror/releases/tag/v0.1.0) |
 | [Лаборатория индексов PostgreSQL](https://github.com/Decl1s/postgres-index-lab) | Я сравниваю один SELECT до и после partial/INCLUDE индекса: равенство строк, JSON EXPLAIN, buffers и прогретые измерения. [Конспект](https://github.com/Decl1s/postgres-index-lab/blob/v0.1.1/NOTES.md) | [CI: PostgreSQL Linux; unit/ZIP Windows](https://github.com/Decl1s/postgres-index-lab/actions/runs/40873024416) · [релиз v0.1.1](https://github.com/Decl1s/postgres-index-lab/releases/tag/v0.1.1) |
 | [Мини-склад PostgreSQL](https://github.com/Decl1s/postgres-stock-ledger) | Я принимаю партию через COPY/staging одной транзакцией; разбираю дубли, конфликт и откат. [Конспект](https://github.com/Decl1s/postgres-stock-ledger/blob/v0.1.0/NOTES.md) | [CI](https://github.com/Decl1s/postgres-stock-ledger/actions/runs/39501807132) · [релиз v0.1.0](https://github.com/Decl1s/postgres-stock-ledger/releases/tag/v0.1.0) |
 | [Заказы и возвраты на dbt](https://github.com/Decl1s/dbt-order-marts) | Я задаю зерно SQL-моделей, связываю ref/DAG, проверяю данные и исключаю fan-out. [Конспект](https://github.com/Decl1s/dbt-order-marts/blob/v0.1.0/NOTES.md) | [CI](https://github.com/Decl1s/dbt-order-marts/actions/runs/39766066365) · [релиз v0.1.0](https://github.com/Decl1s/dbt-order-marts/releases/tag/v0.1.0) |
