@@ -1,6 +1,6 @@
 # Каталог моего портфолио
 
-Я разделил 20 учебных работ на 16 проектов данных, включая флагман, и 4 дополнительные QA-практики. Я использую синтетические данные. Для выпущенных приложений я даю стабильный тег, конспект, CI и архив; у учебных QA-кейсов показываю их собственные материалы и проверки.
+Я разделил 21 учебную работу на 17 проектов данных, включая флагман, и 4 дополнительные QA-практики. Я использую синтетические данные. Для выпущенных приложений я даю стабильный тег, конспект, CI и архив; у учебных QA-кейсов показываю их собственные материалы и проверки.
 
 ## Как я выбираю точку входа
 
@@ -27,6 +27,7 @@
 
 | Проект | Что я показываю | Проверки и поставка |
 | --- | --- | --- |
+| [Исторические цены Polars](https://github.com/Decl1s/polars-price-asof) | Я выбираю действовавшую цену через backward as-of внутри SKU, различаю missing/stale, проверяю границы времени и Parquet. [Конспект](https://github.com/Decl1s/polars-price-asof/blob/v0.1.0/NOTES.md) | [CI Linux/Windows](https://github.com/Decl1s/polars-price-asof/actions/runs/41179726854) · [релиз v0.1.0](https://github.com/Decl1s/polars-price-asof/releases/tag/v0.1.0) |
 | [Разница складских снимков](https://github.com/Decl1s/polars-stock-diff) | Я сравниваю составные ключи, различаю NULL/0 и блокирую неполный снимок до DELETE. [Конспект](https://github.com/Decl1s/polars-stock-diff/blob/v0.1.1/NOTES.md) | [CI](https://github.com/Decl1s/polars-stock-diff/actions/runs/40873001434) · [релиз v0.1.1](https://github.com/Decl1s/polars-stock-diff/releases/tag/v0.1.1) |
 | [Журналы сервисов Polars](https://github.com/Decl1s/polars-service-logs) | Я очищаю JSONL, сохраняю разделы Parquet и считаю почасовые метрики. [Конспект](https://github.com/Decl1s/polars-service-logs/blob/v0.1.0/NOTES.md) | [CI](https://github.com/Decl1s/polars-service-logs/actions/runs/38793161613) · [релиз v0.1.0](https://github.com/Decl1s/polars-service-logs/releases/tag/v0.1.0) |
 | [Конвейер продаж DuckDB](https://github.com/Decl1s/junior-retail-pipeline) | Я превращаю синтетический CSV в проверенные SQL-витрины и отчёт. [Конспект](https://github.com/Decl1s/junior-retail-pipeline/blob/v0.1.0/NOTES.md) | [CI](https://github.com/Decl1s/junior-retail-pipeline/actions/runs/38793128450) · [релиз v0.1.0](https://github.com/Decl1s/junior-retail-pipeline/releases/tag/v0.1.0) |
