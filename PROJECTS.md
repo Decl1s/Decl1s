@@ -1,6 +1,6 @@
 # Каталог моего портфолио
 
-Я разделил 21 учебную работу на 17 проектов данных, включая флагман, и 4 дополнительные QA-практики. Я использую синтетические данные. Для выпущенных приложений я даю стабильный тег, конспект, CI и архив; у учебных QA-кейсов показываю их собственные материалы и проверки.
+Я разделил 22 учебные работы на 18 проектов данных, включая флагман, и 4 дополнительные QA-практики. Я использую синтетические данные. Для выпущенных приложений я даю стабильный тег, конспект, CI и архив; у учебных QA-кейсов показываю их собственные материалы и проверки.
 
 ## Как я выбираю точку входа
 
@@ -16,6 +16,7 @@
 
 | Проект | Что я показываю | Проверки и поставка |
 | --- | --- | --- |
+| [Сверка платежей DuckDB](https://github.com/Decl1s/duckdb-settlement-audit) | Я агрегирую до FULL OUTER JOIN, сохраняю зерно и валюты, различаю возвраты, точный replay и конфликт ID. [Конспект](https://github.com/Decl1s/duckdb-settlement-audit/blob/v0.1.0/NOTES.md) | [CI Linux/Windows](https://github.com/Decl1s/duckdb-settlement-audit/actions/runs/41316007872) · [релиз v0.1.0](https://github.com/Decl1s/duckdb-settlement-audit/releases/tag/v0.1.0) |
 | [CDC-зеркало SQLite](https://github.com/Decl1s/sqlite-cdc-mirror) | Я применяю UPSERT/DELETE с tombstones, replay fingerprints и общим commit данных/checkpoint; проверяю crash/retry. [Конспект](https://github.com/Decl1s/sqlite-cdc-mirror/blob/v0.1.0/NOTES.md) | [CI Linux/Windows](https://github.com/Decl1s/sqlite-cdc-mirror/actions/runs/41066385096) · [релиз v0.1.0](https://github.com/Decl1s/sqlite-cdc-mirror/releases/tag/v0.1.0) |
 | [Лаборатория индексов PostgreSQL](https://github.com/Decl1s/postgres-index-lab) | Я сравниваю один SELECT до и после partial/INCLUDE индекса: равенство строк, JSON EXPLAIN, buffers и прогретые измерения. [Конспект](https://github.com/Decl1s/postgres-index-lab/blob/v0.1.1/NOTES.md) | [CI: PostgreSQL Linux; unit/ZIP Windows](https://github.com/Decl1s/postgres-index-lab/actions/runs/40873024416) · [релиз v0.1.1](https://github.com/Decl1s/postgres-index-lab/releases/tag/v0.1.1) |
 | [Мини-склад PostgreSQL](https://github.com/Decl1s/postgres-stock-ledger) | Я принимаю партию через COPY/staging одной транзакцией; разбираю дубли, конфликт и откат. [Конспект](https://github.com/Decl1s/postgres-stock-ledger/blob/v0.1.0/NOTES.md) | [CI](https://github.com/Decl1s/postgres-stock-ledger/actions/runs/39501807132) · [релиз v0.1.0](https://github.com/Decl1s/postgres-stock-ledger/releases/tag/v0.1.0) |
